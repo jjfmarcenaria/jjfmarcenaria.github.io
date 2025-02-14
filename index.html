@@ -1,1 +1,214 @@
-teste
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Minimalista</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="favicon.png">
+
+
+    <!-- Link do FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Seção Hero -->
+    <section id="hero">
+        <div class="container">
+            <h1>Transformamos sonhos em realidade</h1>
+            <a href="https://api.whatsapp.com/send?phone=5519998173383" class="btn-cta">Solicitar um Orçamento</a>
+        </div>
+    </section>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container nav">
+            <div class="logo">
+                <img src="images/jjf-marcenaria.jpg" alt="" style="width: 100px;margin:0;padding: 0;">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#localizacao">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/marcenaria.jj.7"><i class="fab fa-facebook-f" title="Facebook"></i></a>
+                <a href="https://www.instagram.com/jjfmarcenariapiracicabaoficial"><i class="fab fa-instagram" title="Instagram"></i></a>
+                <a href="https://www.tiktok.com/@jjmarcenariapiraoficial"><i class="fab fa-tiktok" title="TikTok"></i></a>
+                <a href="https://maps.app.goo.gl/8pjiH75wQkcEX24j8"><i class="fab fa-google" title="Google"></i></a>
+                <a href="https://maps.app.goo.gl/8pjiH75wQkcEX24j8"><i class="fa-solid fa-location-dot" title="Localização"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=5519998173383"><i class="fa-brands fa-whatsapp" title="Whatsapp"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção Sobre Nós -->
+    <section id="sobre">
+        <div class="container content">
+            <i class="fas fa-users"></i>
+            <h2>Sobre Nós</h2>
+            <p>Com anos de experiência no mercado, garantimos qualidade e inovação em cada projeto. Nossa equipe é
+                especializada em transformar espaços e criar ambientes únicos e funcionais.</p>
+        </div>
+    </section>
+
+    <!-- Seção Serviços -->
+    <section id="servicos">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 2rem;">Nossos Serviços</h2>
+            <div class="cards">
+                <div class="card">
+                    <i class="fas fa-pencil-ruler"></i>
+                    <h3>Projetos Personalizados</h3>
+                    <p>Desenvolvemos projetos sob medida para atender suas necessidades.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-house-user"></i>
+                    <h3>Móveis Planejados</h3>
+                    <p>Planejamos e executamos móveis que otimizam seu espaço.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Galeria com Filtros -->
+    <section id="galeria">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 2rem;">Galeria</h2>
+            <div class="filtros">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="cozinhas">Cozinhas</button>
+                <button class="filter-btn" data-filter="salas">Sala</button>
+                <!-- <button class="filter-btn" data-filter="escritorios">Escritórios</button> -->
+                <button class="filter-btn" data-filter="quartos">Quartos</button>
+                <!-- <button class="filter-btn" data-filter="lavanderia">Lavanderia</button> -->
+                <button class="filter-btn" data-filter="banheiros">Banheiros</button>
+            </div>
+            <div class="instagram-container">
+            </div>
+
+            <script async src="https://www.instagram.com/embed.js"></script>
+        </div>
+    </section>
+
+    <!-- Seção Depoimentos -->
+    <section id="depoimentos">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 2rem;">Depoimentos</h2>
+            <div class="depoimentos-container">
+                <div class="depoimento">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Apaixonada pela minha cozinha, muito obrigada 💖"</p>
+                    <h4>Cliente A</h4>
+                </div>
+                <div class="depoimento">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Ficou tão liindo!!!"</p>
+                    <h4>Cliente B</h4>
+                </div>
+                <div class="depoimento">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"Minha perfeição.. 😍😍 só tenho a agradecer vcs! 💖"</p>
+                    <h4>Cliente C</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Localização -->
+    <section id="localizacao">
+        <div class="container">
+            <h2>Localização</h2>
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.3540132454837!2d-47.662164524870086!3d-22.677861679416864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c633bb925c845b%3A0x2183b5758e976e9c!2sR.%20Dr.%20Fl%C3%A1vio%20Caporale%2C%20171%20-%20Conj.%20Res.%20Mario%20Dedini%2C%20Piracicaba%20-%20SP%2C%2013412-320!5e0!3m2!1sen!2sbr!4v1739212734668!5m2!1sen!2sbr"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="info">
+                <p><strong>Endereço:</strong> Doutor Flávio Caporali, 171 Mário Dedini, Piracicaba, Brazil 13412320</p>
+                <p><strong>Telefone:</strong></i> 19 99817-3383</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>© 2025 - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Lista de embeds: informe data-category e a url do post
+        const instagramList = [
+            { url: "https://www.instagram.com/reel/C7cn7-cvXLE/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==", category: "cozinhas" },
+            { url: "https://www.instagram.com/p/DFqRIkdP0mK/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==", category: "cozinhas,banheiros" },
+            { url: "https://www.instagram.com/p/DFf5kreP9vs/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==", category: "cozinhas" },
+            { url: "https://www.instagram.com/p/DFYWK6Yvjrv/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==", category: "quartos" },
+            { url: "https://www.instagram.com/p/DFYTwJSvF87/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==", category: "quartos" },
+            { url: "https://www.instagram.com/p/DFB8h41uSb4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==", category: "quartos,banheiros" },
+            { url: "https://www.instagram.com/p/DE2noFJp49_/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==", category: "cozinhas,salas" },
+            { url: "https://www.instagram.com/reel/DCgtb8fO740/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==", category: "quartos" },
+            { url: "https://www.instagram.com/reel/DCEkeEouE6u/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==", category: "salas" }
+        ];
+
+        // Gera os embeds dinamicamente
+        const container = document.querySelector('.instagram-container');
+        container.innerHTML = "";
+        instagramList.forEach(item => {
+            const div = document.createElement("div");
+            div.setAttribute("data-category", item.category);
+            div.innerHTML = `<blockquote class="instagram-media" data-instgrm-permalink="${item.url}" data-instgrm-version="14"></blockquote>`;
+            container.appendChild(div);
+        });
+        // Processa o embed do Instagram
+        if (window.instgrm && window.instgrm.Embeds && typeof window.instgrm.Embeds.process === "function") {
+            window.instgrm.Embeds.process();
+        }
+
+        // Filtro dinâmico mantém-se inalterado
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const galleryItems = document.querySelectorAll('.instagram-container > div');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(button => button.classList.remove('active'));
+                btn.classList.add('active');
+
+                const filter = btn.getAttribute('data-filter');
+                galleryItems.forEach(item => {
+                    const categories = item.getAttribute('data-category').split(',').map(c => c.trim());
+                    item.style.display = (filter === 'all' || categories.includes(filter)) ? "block" : "none";
+                });
+                // Reprocessa os embeds se necessário
+                // if(window.instgrm && window.instgrm.Embeds && typeof window.instgrm.Embeds.process === "function"){
+                //     window.instgrm.Embeds.process();
+                // }
+            });
+        });
+
+        const depoimentosContainer = document.querySelector('.depoimentos-container');
+        const depoimentos = document.querySelectorAll('.depoimento');
+        let depoimentoIndex = 0;
+
+        function showNextDepoimento() {
+            depoimentoIndex++;
+            if (depoimentoIndex >= depoimentos.length) {
+                depoimentoIndex = 0;
+            }
+            depoimentosContainer.style.transform = 'translateX(-' + (depoimentoIndex * 100) + '%)';
+        }
+        setInterval(showNextDepoimento, 5000);
+    </script>
+</body>
+
+</html>
